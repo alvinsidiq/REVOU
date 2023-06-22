@@ -1,0 +1,107 @@
+header{
+    top: 0;
+    left: 0;
+    right:0 ;
+}
+
+.nav{
+    display: flex;
+    justify-content:flex-end ;
+    border: 2px solid green;
+    background-color: antiquewhite;
+}
+
+.nav div{
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 18px;
+    background-color: aqua;
+   
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+div a:hover{
+    text-decoration: underline;
+
+}
+
+
+.home-box{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+    background: url(./foto/baner.jpg);
+    background-size: cover;
+    background-position: top;
+    border: 2px solid red;
+
+
+}
+
+.home-box h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.home-box p{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+   padding-right: 100px;
+   padding-bottom: 50px;
+}
+
+
+
+
+.gambar{
+    width: 30%;
+    margin: auto;
+}
+
+
+.about-box{
+    display: flex;
+    border: 2px solid black;
+    gap: 12px;
+    margin-top: 50px;
+    padding-top: 50px;
+    justify-content: center;
+
+    
+}
+.text{
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    
+    
+}
+
+
+footer{
+    
+    margin: auto;
+    color: black;
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    display: flex;
+    justify-content:center ;
+}
+
+
+.wraper{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
